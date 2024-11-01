@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px; /*height*/
+    margin: 0 auto; /*centers the page*/
+    background-color: #f4f4f4;
+    width: 60%; /*takes up 60% of the page*/
+    font-size: 1em;
+}
+h1{
+    font-size: 2.5em;
+}
+header{
+    text-align: center;
+    margin-bottom: 15px; 
+}
+.container{
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 10px 15px 50px rgba(159, 157, 157, 0.542); /*creates a shadow around the page. first two values are the position, 3rd value is the transparency|rgba adds an opacity/transperancy value*/
+}
+h2{
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+.bold{
+    font-weight: bold; /*adds bold*/
+}
+.date{
+    font-style: italic; /*adds italic*/
+    color: #666;
+}
+.job{
+    margin: 10px; /*margin around the values to create space that looks good*/
+}
+ul{
+    padding: 0; /*added for the values to shift to the left*/
+}
+hr{
+    padding: 0.2px;
+    background-color: black;
+}
+.skills-items{
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills-items > li{
+    padding: 3px;
+}
